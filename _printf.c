@@ -2,9 +2,9 @@
 #include <stdarg.h>
 #include <stdint.h>
 /**
- * _withformat4 - prints depending the format
+ * _withformat4 - prints depending on the format
  * @c: the format sent by the main
- * @count: characters printed;
+ * @count: characters printed
  * @valist: va_list args
  * Return: @count the number of characters printed
  */
@@ -42,7 +42,7 @@ int _withformat4(char c, int count, va_list valist)
 }
 
 /**
- * _withformat3 - prints depending the format
+ * _withformat3 - prints depending on the format
  * @c: the format sent by the main
  * @count: characters printed;
  * @valist: va_list args
@@ -127,7 +127,7 @@ int _withformat2(char c, int count, va_list valist)
 
 
 /**
- * _withformat - prints depending the format
+ * _withformat - prints depending on the format
  * @c: the format sent by the main
  * @count: characters printed;
  * @valist: va_list args
